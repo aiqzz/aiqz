@@ -1,8 +1,3 @@
-    agent any
-    stages{
-        stage("first stage"){
-            steps{
-                echo "this is first step"
-            }
-        }
-    }
+stages{
+        echo "this is first step"
+}
